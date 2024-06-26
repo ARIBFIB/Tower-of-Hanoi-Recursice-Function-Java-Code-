@@ -1,8 +1,64 @@
 # Tower-of-Hanoi-Recursice-Function-Java-Code-
 Solve the classic Tower of Hanoi puzzle using recursion in Java
 # Tower of Hanoi
+
+![How it works (6)](https://github.com/ARIBFIB/Tower-of-Hanoi-Recursice-Function-Java-Code-/assets/125716994/f25eb99b-9829-4316-9285-d6fc816491f4)
+
 ![the-tower-of-hanoi-a-game-to-end-the-world](https://github.com/ARIBFIB/Tower-of-Hanoi-Recursice-Function-Java-Code-/assets/125716994/577e49ab-1e20-4732-9b5a-0d7e4595c426)
 
+# Code
+```
+public class TowerOfHanoi{
+    public static void main(String[] args) {
+        int numDesk = 5;
+        moveDisk(numDesk, 'A', 'B', 'C');
+    }
+    public static void moveDisk(int n, char from, char to, char aux) {
+        if(n == 1){
+            System.out.println("Move Desk 1 from " + from + " to " + to);
+            return;
+        }
+        moveDisk(n-1 , from , aux , to);
+        System.out.println("Move Desk " + n + " from " + from + " to " +  to);
+        moveDisk(n-1 , from , aux , to);
+    }
+}
+```
+# Output
+![image](https://github.com/ARIBFIB/Tower-of-Hanoi-Recursice-Function-Java-Code-/assets/125716994/1dbffcda-384e-429f-8459-652c129b8a51)
+```
+Move Desk 1 from A to B
+Move Desk 2 from A to C
+Move Desk 1 from A to B
+Move Desk 3 from A to B
+Move Desk 1 from A to B
+Move Desk 2 from A to C
+Move Desk 1 from A to B
+Move Desk 4 from A to C
+Move Desk 1 from A to B
+Move Desk 2 from A to C
+Move Desk 1 from A to B
+Move Desk 3 from A to B
+Move Desk 1 from A to B
+Move Desk 2 from A to C
+Move Desk 1 from A to B
+Move Desk 5 from A to B
+Move Desk 1 from A to B
+Move Desk 2 from A to C
+Move Desk 1 from A to B
+Move Desk 3 from A to B
+Move Desk 1 from A to B
+Move Desk 2 from A to C
+Move Desk 1 from A to B
+Move Desk 4 from A to C
+Move Desk 1 from A to B
+Move Desk 2 from A to C
+Move Desk 1 from A to B
+Move Desk 3 from A to B
+Move Desk 1 from A to B
+Move Desk 2 from A to C
+Move Desk 1 from A to B
+```
 
 ![Tower of Hanoi][]
 
