@@ -3,7 +3,7 @@ Solve the classic Tower of Hanoi puzzle using recursion in Java
 # Tower of Hanoi
 
 ![How it works (6)](https://github.com/ARIBFIB/Tower-of-Hanoi-Recursice-Function-Java-Code-/assets/125716994/f25eb99b-9829-4316-9285-d6fc816491f4)
-Check out the video tutorial on [YouTube]([https://youtu.be/uwlSE_TJweA](https://youtu.be/VGcayd8EO2E)) for more information.
+Check out the video tutorial on [YouTube](https://youtu.be/VGcayd8EO2E) for more information.
 
 ![the-tower-of-hanoi-a-game-to-end-the-world](https://github.com/ARIBFIB/Tower-of-Hanoi-Recursice-Function-Java-Code-/assets/125716994/577e49ab-1e20-4732-9b5a-0d7e4595c426)
 
