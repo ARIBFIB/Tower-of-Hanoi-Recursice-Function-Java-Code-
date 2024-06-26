@@ -87,7 +87,7 @@ In this project, you'll find a recursive Java implementation of the Tower of Han
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/tower-of-hanoi.git
+   git clone https://github.com/your-username/tower-of-hanoi.git](https://github.com/ARIBFIB/Tower-of-Hanoi-Recursice-Function-Java-Code-.git
    ```
 2. Compile and run the `TowerOfHanoi` class:
    ```
@@ -104,10 +104,9 @@ Contributions are always welcome! If you find any issues or have suggestions for
 
 This project is licensed under the [MIT License](LICENSE).
 
-## 👨‍💻 Authors
+## 👨‍💻 Software Developer
 
-- [@your-username](https://github.com/your-username)
-
+- [Abdul Rehman Irfan](https://github.com/ARIBFIB/Tower-of-Hanoi-Recursice-Function-Java-Code-.git)
 [Tower of Hanoi]: https://github.com/your-username/tower-of-hanoi/blob/main/assets/tower-of-hanoi.png
 
 In this example, the GitHub README includes the following elements:
